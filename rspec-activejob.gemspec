@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/gocardless/rspec-activejob'
   s.license = 'MIT'
 
-  s.has_rdoc = false
   s.files = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   s.require_paths = %w(lib)
 
